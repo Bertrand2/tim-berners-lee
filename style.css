@@ -234,3 +234,17 @@ header>*{
 .movie>.title{
     text-align: center;
 }
+
+/*====================
+MOBILE-RESPONSIVE DESIGN
+====================*/
+
+@media only screen and (max-width:100vh){
+    body{
+        display: grid;
+        grid-template: 540px 1fr / 1fr 1000px 1fr;
+        grid-template-areas: 
+        ". header ."
+        ". main .";
+    }
+}
