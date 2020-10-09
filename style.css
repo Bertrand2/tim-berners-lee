@@ -4,6 +4,8 @@ VARIABLES & FONT DECLARATION
 
 :root{
     --color-red: #dd5555;
+    --color-darkRed: #d04747;
+    --color-lightRed: #ed6565;
     --color-bg: #ebebeb;
     --color-boxes: #ffffff;
     --color-text: #7d7d7d;
@@ -172,6 +174,9 @@ header>a{
     color: var(--color-boxes);
     font-family:"OpenSans-Bold";
     text-decoration: none;
+    border: 3px solid var(--color-red);
+    transition: border var(--duration-transition);
+    transition: background-color var(--duration-transition);
 
     display: flex;
     align-items: center;
@@ -179,6 +184,10 @@ header>a{
 }
 header>a:hover{
     cursor: pointer;
+    background-color: var(--color-lightRed);
+    border: 3px solid var(--color-darkRed);
+    transition: border var(--duration-transition);
+    transition: background-color var(--duration-transition);
 }
 header>p{
     margin-left: 20px;
