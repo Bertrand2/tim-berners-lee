@@ -65,6 +65,9 @@ VARIABLES & FONT DECLARATION
 PAGE STRUCTURE
 ====================*/
 
+html{
+    background-color: var(--color-bg);
+}
 body{
     display: grid;
     grid-template: 540px 1fr / 1fr 600px 1fr;
@@ -72,7 +75,6 @@ body{
     ". header ."
     ". main .";
 
-    background-color: var(--color-bg);
 }
 body>header{
     grid-area: header;
@@ -109,7 +111,7 @@ header{
 }
 .movie>img{
     grid-area: img;
-    width: 60%;
+    width: 75%;
 }
 .movie>.title{
     grid-area: title;
