@@ -233,6 +233,7 @@ MOBILE-RESPONSIVE DESIGN
         max-width: 1200px;
         width: 100%;
         margin: auto;
+        font-size: 1.2em;
     }
     .contact{
         height: 20vh;
